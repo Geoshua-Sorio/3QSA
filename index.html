@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whac a Mole</title>
+    <link rel="stylesheet" href="mole.css">
+    <script src="mole.js"></script>
+    <style>
+        .id {
+            color: #C49102;
+            font-size:50px
+        }
+        .score {
+            color: #C49102;
+            font-size:30px
+        }
+        .button button{
+            font-size:30px;
+            border-radius:20px;
+            width:100px;
+            background-color: rgba(68, 24, 7, 0.527);
+            border: solid 1px rgba(126, 39, 5, 0.911);
+            color: #C49102;
+        }
+        .button{
+            margin-top:10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="id">WHAC-A-SENSEI (EASY)</h1>
+    <h2 id="score" class="score">0</h2>
+    <!-- 4x4 -->
+    <div id="board">
+    </div>
+    <div class="button">
+        <button class="button" onclick="window.location.href='button.html'">Quit</button>
+    </div>
+    
+</body>
+</html>
